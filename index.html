@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Rurouni Kenshin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/estilo.css" />
+    <link rel="stylesheet" href="./src/css/responsivo.css" />
+  </head>
+  <body>
+    <video autoplay loop muted plays-inline class="back-video">
+      <source src="./src/imagens/backVideo.mp4" type="video/mp4" />
+    </video>
+    <header class="cabecalho">
+      <img
+        class="logo"
+        src="./src/imagens/logo.png"
+        alt="Logo RurouniKenshin"
+      />
+    </header>
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li
+            class="personagem selecionado"
+            id="kenshin"
+            data-name="Kenshin"
+            data-description="É um ex-assassino lendário da era do Bakumatsu. Ao final da mesma era, torna-se um andarilho pacifista em busca de redenção."
+          >
+            <img
+              src="./src/imagens/card-kenshin.jpeg"
+              alt="Personagem Kenshin"
+            />
+          </li>
+          <li
+            class="personagem"
+            id="kaoru"
+            data-name="Kaoru"
+            data-description="Kaoru Kamiya é instrutora de um dojo e mestra do estilo Kamiya Kashin Ryuu. Ao caçar Battousai, acaba apaixonando-se por Kenshin, convidando-o para ficar em seu dojo. "
+          >
+            <img src="./src/imagens/card-kaoru.jpeg" alt="Personagem Kaoru" />
+          </li>
+          <li
+            class="personagem"
+            id="sanosuke"
+            data-name="Sanosuke"
+            data-description="Ex-lutador de aluguel, após ser derrotado por Battousai, torna-se melhor amigo dele, passando a proteger as pessoas."
+          >
+            <img
+              src="./src/imagens/card-sanosuke.jpeg"
+              alt="Personagem Sanosuke"
+            />
+          </li>
+          <li
+            class="personagem"
+            id="aoshi"
+            data-name="aoshi"
+            data-description="Líder da Oniwabanshuu de Tóquio.Espadachim habilidoso e muito respeitado. Torna-se amigo e aliado de Kenshin após ser derrotado por ele duas vezes. "
+          >
+            <img src="./src/imagens/card-aoshi.jpeg" alt="Personagem Aoshi" />
+          </li>
+          <li
+            class="personagem"
+            id="saito"
+            data-name="saito"
+            data-description="Tem uma rivalidade de longa data com Kenshin, com quem lutou diversas vezes, mas acaba aliando-se à ele para derrotar inimigos em comum. "
+          >
+            <img src="./src/imagens/card-saito.jpg" alt="Personagem Saito" />
+          </li>
+          <li
+            class="personagem"
+            id="enishi"
+            data-name="enishi"
+            data-description="Movido pelo desejo de vingar sua irmã morta pelo marido, Enishi,torna-se chefão da máfia chinesa e habilidoso lutador para caçar, punir e matar Kenshin.  "
+          >
+            <img src="./src/imagens/card-enishi.jpeg" alt="Personagem enishi" />
+          </li>
+          <li
+            class="personagem"
+            id="sojiro"
+            data-name="sojiro"
+            data-description="Guerreiro adolescente que é braço direito de Makoto Shishio,conhecido por estar sempre com um falso sorriso em seu rosto e aparentar não exibir emoção alguma em batalha."
+          >
+            <img src="./src/imagens/card-sojiro.jpeg" alt="Personagem Sojiro" />
+          </li>
+          <li
+            class="personagem"
+            id="shishio"
+            data-name="shishio"
+            data-description="Substituto de Kenshin como retalhador dos monarquistas, Shishio é sádico, insano, inteligente e um dos maiores inimigos enfrentados por Kenshin."
+          >
+            <img
+              src="./src/imagens/card-shishio.jpg"
+              alt="Personagem Shishio"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/card-kenshin.png"
+          alt="Personagem selecionado"
+        />
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Rurouni Kenshin</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            É um ex-assassino lendário da era do Bakumatsu. Ao final da mesma
+            era, torna-se um andarilho pacifista em busca de redenção.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>

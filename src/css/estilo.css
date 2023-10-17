@@ -1,0 +1,80 @@
+body {
+  font-family: "Reggae One", cursive;
+  background-color: #000000;
+  color: #ffffff;
+}
+.back-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100em;
+  min-height: 100em;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.cabecalho {
+  padding-top: 50px;
+  padding-left: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.cabecalho .logo {
+  height: 100px;
+  width: 150px;
+}
+.selecao-de-personagens {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  min-height: calc(100vh - 250px);
+  justify-content: center;
+}
+.selecao-de-personagens .lista-de-personagens {
+  width: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.selecao-de-personagens .personagens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 750px;
+  gap: 50px;
+}
+.selecao-de-personagens .personagens .titulo {
+  font-size: 20px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #47f4ff;
+  width: 100%;
+  text-align: center;
+}
+.lista-de-personagens .personagem img {
+  height: 100%;
+  width: 150px;
+}
+.lista-de-personagens .personagem.selecionado {
+  box-shadow: 0px 0px 20px 5px #0271f7;
+}
+.personagem-selecionado {
+  text-align: center;
+  max-height: 530px;
+}
+.personagem-selecionado .personagem-grande {
+  width: 430px;
+  height: 430px;
+}
+.personagem-selecionado .nome-personagem {
+  border-bottom: 2px solid #47f4ff;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.personagem-selecionado .descricao-personagem {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 20px;
+  width: 420px;
+}
