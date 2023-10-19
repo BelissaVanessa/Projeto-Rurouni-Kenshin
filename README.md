@@ -18,6 +18,9 @@ Um dos meus maiores aprendizados na execução desse projeto foi a adaptação d
 
 Aos gêmeos do canal Dev em Dobro que disponibilizaram esse projeto durante suas aulas ao vivo e ao meu filho e parceiro de estudos, Lucca Galvão. 
 
+
+
+
 ## ScreenShot
 
 ![image](https://github.com/BelissaVanessa/Projeto-Rurouni-Kenshin/assets/139670185/ddaf8667-3931-4940-bc5d-1facf9dacf45)
