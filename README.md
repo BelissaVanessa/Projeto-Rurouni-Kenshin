@@ -1,7 +1,7 @@
  # Projeto Seletor - Rurouni kenshin
 
 Este é um projeto de propósito educacional. Trata-se de um seletor descritivo de personagens da saga Rurouni kenshin. A medida que o usuário seleciona um personagem, ao lado é possível visualizar sua imagem correspondente com uma breve descrição do mesmo. 
-Foi realizado tendo como base o projeto de seleção de personagens do X-Men, ensinado pelos gêmeos do canal Dev em Dobro.  
+Foi realizado tendo como base o projeto de seleção de personagens do X-Men, ensinado pelos irmãos gêmeos do canal Dev em Dobro.  
 
 ## Stack utilizada
 
